@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Saurav Dhakal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<nav>
+		<h1>Saurav <span>D</span></h1>
+		<div class="hamburger-menu" onclick="toggleMenu()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<ul id="nav-menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section class="hero">
+		<div class="left">
+			<p>My Name is Saurav Dhakal</p>
+			<h1>I'm a Web Developer</h1>
+			<p>EXPERIENCED IN JAVASCRIPT</p>
+			<div class="socialmedia">
+				<a href="mailto:saurav@example.com"><img src="https://th.bing.com/th?id=OIP.lPC9N7iMcMjHdmKkCGjLOAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></a>
+				<a href="https://web.whatsapp.com/"><img src="https://th.bing.com/th?id=OIP.lTqMPiPP11QPJ0FFSx9h6gHaHc&w=249&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></a>
+				<a href="https://www.facebook.com/saurav.dhakal.31"><img src="https://th.bing.com/th?id=OIP.55DCXbXlKDgEBoZhKxpzLAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></a>
+			</div>
+		</div>
+		<div class="right">
+			<img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-1/374737937_1024530198545953_4224704209466714471_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeF1GI-w9MvbMpNlEOeOfSiVhaZF_zP4kImFpkX_M_iQiQWPthZAHthAsCzNHDzif33riPCq2bg25ynofJNcvTEY&_nc_ohc=Jz1HUdUQ2A8Q7kNvgEnJWtT&_nc_zt=24&_nc_ht=scontent.fktm3-1.fna&_nc_gid=AWvTzigHJmzRraJnZOVwIlF&oh=00_AYAxAJGxedhbjUtZJGJqDN3cQy8Wv5Y07ZhTkYQhoHawMw&oe=67662DA1">
+		</div>
+	</section>
+
+	<h2 class="servicename">Services</h2>
+	<section class="services">
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.55DCXbXlKDgEBoZhKxpzLAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+			<h1>Facebook</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.P_z8uTsVJ8tmPn2prJwOpQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2">
+			<h1>Linkedin</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.Sbs-M2-y31gNoj9n-IIeowHaHa&w=249&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+			<h1>Twitter</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.3gzdVARzl0x-n1EkQbW4LAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+			<h1>Reddit</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.hR6TQma4SWfP-yfQmT5oqgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+			<h1>Youtube</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		<div>
+			<img src="https://th.bing.com/th?id=OIP.IpB5yPUkCFHOzlmM-O7ncAHaFW&w=294&h=212&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+			<h1>Gmail</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+	</section>
+
+	<script>
+		function toggleMenu() {
+			const menu = document.getElementById('nav-menu');
+			menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+		}
+	</script>
+</body>
+</html>
